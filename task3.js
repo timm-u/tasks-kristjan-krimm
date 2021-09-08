@@ -9,7 +9,7 @@ function greet(name){
         }
     }
     else{
-        return ("Hello,", name);
+        return ("Hello, " + name);
     }
 }
 
