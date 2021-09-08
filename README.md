@@ -6,7 +6,7 @@
 
 # What do files contain?
 
-## Files that are uploaded here contain code that were required to complete certain exercises successfully.
+## Files that are uploaded here contain code that is required to complete certain exercises successfully.
 
 # Requirements
 
