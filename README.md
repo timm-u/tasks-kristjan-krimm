@@ -22,7 +22,7 @@
 node task1.js
 ```
 
-- This will run task1 code.
+This will run task1 code.
 
 
 
