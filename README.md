@@ -1,20 +1,28 @@
-# Author: Kristjan Krimm
+# File creator
 
-## Created: 08.09.2021
+## Author: Kristjan Krimm
 
-## Files contain javascript exercises.
+### Created: 08.09.2021
 
-## Requirement: node.js
+# What do files contain?
 
-## How to run: You can run the files provided here with node.js
+## Files that are uploaded here contain code that were required to complete certain exercises successfully.
 
-### Uue branchi loomine. Tavaliselt kasutatakse branchi nimena:
+# Requirements
 
-- Esimene osa on tüüp (story - feature, bug - bugfix)
-- Teine osa pileti number
+## You need node.js to run the code.
+
+# How to run
+
+## You can run the files provided here with node.js
+
+### For example: 
+
 ```
-git checkout -b feature/ABC-123
+node task1.js
 ```
+
+- This will run task1 code.
 
 
 
