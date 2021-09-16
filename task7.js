@@ -4,26 +4,26 @@ function getRandomNumber() {
 }
 
 //koostan array mis koosneb 5st erinevast random numbrist
-const numbers = [];
+const randomArray = [];
 
 for (let i = 0; i < 5; i++){
-    numbers.push(getRandomNumber());
+    randomArray.push(getRandomNumber());
 }
 
-function getMaxOfArray() {
-    return Math.max.apply(null, numbers);
+function getMaxOfArray(randomArray) {
+    return Math.max.apply(null, randomArray);
 }
 
-function getMinOfArray(){
-    return Math.min(...numbers);
+function getMinOfArray(randomArray){
+    return Math.min(...randomArray);
 }
 
-function getEvenNumbers() {
+function getEvenNumbers(randomArray) {
     let evennumbers = [];
-    for (var i = 0; i < numbers.length; i++) {
-        if (numbers[i] % 2 === 0) {
+    for (var i = 0; i < randomArray.length; i++) {
+        if (randomArray[i] % 2 === 0) {
             evennumbers.push("true");
-        }else if(numbers[i] % 2 === 1){
+        }else if(randomArray[i] % 2 === 1){
             evennumbers.push("false");
         }
     }
@@ -37,7 +37,7 @@ function getEvenNumbers() {
    return even;
 }
 
-console.log(numbers);
-console.log(getMaxOfArray());
-console.log(getMinOfArray());
-console.log(getEvenNumbers());
+console.log(randomArray);
+console.log(getMaxOfArray(randomArray));
+console.log(getMinOfArray(randomArray));
+console.log(getEvenNumbers(randomArray));

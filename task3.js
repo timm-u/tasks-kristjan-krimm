@@ -1,7 +1,7 @@
 let name;
 
 function greet(name){
-    if(name === undefined){
+    if(!name){
         return ('Hello, my friend.');
     } else if(name instanceof Array) {
         if(name.length >= 1){

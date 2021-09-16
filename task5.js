@@ -1,20 +1,20 @@
-let sisend = "";
+let stringToCheck = "";
 
-function checkstring(sisend){
-    if(sisend === undefined){
-        return false;
-    }else if(sisend === ""){
+function checkstring(stringToCheck){
+    if(stringToCheck){
+        return true;
+    }else if(stringToCheck === ""){
         return false;
     }else{
-        return true;
+        return false;
     }
 }
 
-function uppercase(sisend){
-    if(sisend === undefined){
-        return '""';
+function uppercase(stringToCheck){
+    if(stringToCheck){
+        return stringToCheck.charAt(0).toUpperCase() + stringToCheck.slice(1);
     }else{
-        return sisend.charAt(0).toUpperCase() + sisend.slice(1);
+        return '""';
     }
 }
 

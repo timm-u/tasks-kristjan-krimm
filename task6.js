@@ -1,12 +1,12 @@
 function printing(n){
-    if(n === undefined){
+    if(!n){
         console.log("Hi!");
     } else if(n > 0 && n < 10){
-        for(let arv2 = 0; arv2 < n; arv2++){
+        for(let i = 0; i < n; i++){
             console.log("Hello!");
         }    
     } else if(n > 10){
-        for(let arv = 0; arv < n; arv++){
+        for(let k = 0; k < n; k++){
             console.log("Hi!");
         }
     }
