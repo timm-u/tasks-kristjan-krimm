@@ -1,13 +1,22 @@
-const eesnimi = 'Kristjan';
-const synnapaev = '22';
-const synnakuu = '12';
-const synnaaasta = '1998';
-let hobid = [ 'klaverimäng', 'elektroonika' ];
-const kokku = {eesnimi, synnapaev, synnakuu, synnaaasta, hobid};
-console.log(synnapaev + "." + synnakuu + "." + synnaaasta);
+let firstName = 'Kristjan';
+let birthDay = '22';
+let birthMonth = '12';
+let birthYear = '1998';
+let hobbies = [ 'klaverimäng', 'elektroonika' ];
+let object = {
+    firstName: firstName,
+    birthDay: birthDay,
+    birthMonth: birthMonth,
+    birthYear: birthYear,
+    hobbies: hobbies
+}
 
-const eesnimi1 = 'Kristjan';
-const synna = new Date(1998,11,22);
-let hobid2 = [ 'klaverimäng', 'elektroonika' ];
-const kokku2 = {eesnimi1, synna, hobid2};
-console.log(synna.getDate() + "." + (synna.getMonth()+1) + "." + synna.getFullYear());
+console.log(`${object.birthDay}.${object.birthMonth}.${object.birthYear}`);
+
+let bday = new Date(1998,11,22);
+object = {
+    firstName: firstName,
+    bday: bday,
+    hobbies: hobbies
+}
+console.log(bday.getDate() + "." + (bday.getMonth()+1) + "." + bday.getFullYear());
