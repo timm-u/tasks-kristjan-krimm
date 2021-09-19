@@ -17,7 +17,7 @@ function printing(n){
     }
 }
 
-console.log(printing().toString());//undefined
-console.log(printing(2).toString());
-console.log(printing(3).toString());
-console.log(printing(12).toString());
+console.log(printing().toString().split(',').join("\r\n"));//undefined
+console.log(printing(2).toString().split(',').join("\r\n"));//2x hello!
+console.log(printing(3).toString().split(',').join("\r\n"));//3x hello!
+console.log(printing(12).toString().split(',').join("\r\n"));//12x hi!
